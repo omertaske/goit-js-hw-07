@@ -3,7 +3,7 @@ const inform = document.querySelector(".login-form");
 
 console.log(inform.innerHTML);
 
-form.addEventListener('submit', event => {
+inform.addEventListener('submit', event => {
     event.preventDefault();
   
     const {
