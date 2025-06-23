@@ -1,9 +1,7 @@
 
-const inform = document.querySelector(".login-form");
+const form = document.querySelector(".login-form");
 
-console.log(inform.innerHTML);
-
-inform.addEventListener('submit', event => {
+form.addEventListener('submit', event => {
     event.preventDefault();
   
     const {
