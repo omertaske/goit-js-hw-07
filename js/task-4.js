@@ -1,13 +1,13 @@
 
-const form = document.querySelector(".login-form");
+const inform = document.querySelector(".login-form");
 
-form.addEventListener('submit', event => {
+inform.addEventListener('submit', event => {
     event.preventDefault();
   
     const {
       email,
       password
-    } = form.elements;
+    } = inform.elements;
   
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
