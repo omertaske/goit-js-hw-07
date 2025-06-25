@@ -23,5 +23,5 @@ inform.addEventListener('submit', event => {
     };
   
     console.log(formData);
-    form.reset();
+    inform.reset();
   });
